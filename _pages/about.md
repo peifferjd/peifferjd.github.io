@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, Northwestern University,<a href='https://www.sralab.org/'>Shirley Ryan AbilityLab</a>
+subtitle: PhD Candidate, Northwestern University, <a href='https://www.sralab.org/'>Shirley Ryan AbilityLab</a>
 
 profile:
   align: right
