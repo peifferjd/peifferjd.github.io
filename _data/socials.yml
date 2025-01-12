@@ -20,7 +20,7 @@ inspirehep_id: 1010907 # Inspire HEP author ID
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: # your LinkedIn user name
+linkedin_username: jdpeiffer # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -46,6 +46,6 @@ scholar_userid: JuoR3ewAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+  logo: https://media.licdn.com/dms/image/v2/C4E0BAQH4HPeDRlDlWQ/company-logo_100_100/company-logo_100_100/0/1631347869085?e=1744848000&v=beta&t=ndWDQtnxf94lNkqpS-oFYciXU7lcPfs_ai7pQjuRg7Y # can be png, svg, jpg
+  title: SRALab
+  url: https://www.sralab.org/researchers/jd-peiffer 
