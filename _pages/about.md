@@ -25,7 +25,7 @@ I also have my irons in a number of other fires: validating our approach on the 
 
 Hi there! I'm J.D., a PhD candidate in Biomedical Engineering at Northwestern University. I’m fortunate to work with an incredible team at the Shirley Ryan AbilityLab, where we operate at the intersection of AI and medicine, using cutting-edge machine learning techniques to enhance diagnosis, treatment, and rehabilitation.
 
-One of the biggest challenges in motion capture is that it’s often either inaccessible or difficult to interpret. My primary focus is on developing algorithms to reconstruct human movement from handheld smartphone videos using biomechanically grounded models. This is a complex problem, as most existing methods fail to account for biomechanics or the challenges of working with a moving camera.
+ My primary focus is on developing algorithms to reconstruct human movement from handheld smartphone videos using biomechanically grounded models. This is a complex problem, as most existing methods fail to account for biomechanics or the challenges of working with a moving camera.
 
 Beyond my main work, I’m involved in several exciting projects: collaborating to validate our approach on upper extremity movement, exploring innovative ways to interpret the high-quality data we collect, and working to deploy our technology in real clinical settings.
 
