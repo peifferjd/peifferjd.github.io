@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I presented my work on fusing smartphone video and wearable IMUs in Heidelberg, Germany!
+I presented my work on smartphone video and wearable sensor fusion in Heidelberg, Germany!
