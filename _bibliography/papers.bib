@@ -19,7 +19,7 @@
 	title = {Fusing Uncalibrated {IMUs} and Handheld Smartphone Video to Reconstruct Knee Kinematics},
 	url = {https://ieeexplore.ieee.org/document/10719724},
 	doi = {10.1109/BioRob60516.2024.10719724},
-	abstract = {Video and wearable sensor data provide comple-mentary information about human movement. Video provides a holistic understanding of the entire body in the world while wearable sensors, namely inertial measurement units ({IMUs}), provide high-resolution measurements of specific body segments. A robust method to fuse these modalities and obtain biomechanically accurate kinematics would have substantial utility for clinical assessment and monitoring. Although multiple video-sensor fusion methods exist, most assume that a time-intensive and often brittle sensor-body calibration process has already been completed. In this work, we employ an implicit function to combine handheld smartphone video and uncalibrated {IMU} data at their full temporal resolution. Our monocular, video-only, biomechanical reconstruction already performs well, with only 3.91 (1.55) degrees of mean adjusted angular error in knee kinematics across 60 recordings. Re-constructing from a fusion of video and {IMU} data reduces this error to 2.9 (1.27) degrees. We validate this method in a diverse group including individuals with no gait impairments, lower limb prosthesis users, and those with a history of stroke. We also show that {IMU} data allows accurate tracking through periods of visual occlusion, equivalent to video-only.},
+	abstract = {Video and wearable sensor data provide complementary information about human movement. Video provides a holistic understanding of the entire body in the world while wearable sensors, namely inertial measurement units ({IMUs}), provide high-resolution measurements of specific body segments. A robust method to fuse these modalities and obtain biomechanically accurate kinematics would have substantial utility for clinical assessment and monitoring. Although multiple video-sensor fusion methods exist, most assume that a time-intensive and often brittle sensor-body calibration process has already been completed. In this work, we employ an implicit function to combine handheld smartphone video and uncalibrated {IMU} data at their full temporal resolution. Our monocular, video-only, biomechanical reconstruction already performs well, with only 3.91 (1.55) degrees of mean adjusted angular error in knee kinematics across 60 recordings. Re-constructing from a fusion of video and {IMU} data reduces this error to 2.9 (1.27) degrees. We validate this method in a diverse group including individuals with no gait impairments, lower limb prosthesis users, and those with a history of stroke. We also show that {IMU} data allows accurate tracking through periods of visual occlusion, equivalent to video-only.},
 	eventtitle = {2024 10th {IEEE} {RAS}/{EMBS} International Conference for Biomedical Robotics and Biomechatronics ({BioRob})},
 	pages = {1275--1282},
 	booktitle = {2024 10th {IEEE} {RAS}/{EMBS} International Conference for Biomedical Robotics and Biomechatronics ({BioRob})},
@@ -37,14 +37,15 @@
 	title = {Self-Supervised Learning of Gait-Based Biomarkers},
 	url = {https://link.springer.com/chapter/10.1007/978-3-031-46005-0_24},
 	doi = {10.1007/978-3-031-46005-0_24},
-	eventtitle = {2024 10th {IEEE} {RAS}/{EMBS} International Conference for Biomedical Robotics and Biomechatronics ({BioRob})},
+	eventtitle = {International Workshop on PRedictive Intelligence In MEdicine},
+	abstract = {Markerless motion capture ({MMC}) is revolutionizing gait analysis in clinical settings by making it more accessible, raising the question of how to extract the most clinically meaningful information from gait data. In multiple fields ranging from image processing to natural language processing, self-supervised learning ({SSL}) from large amounts of unannotated data produces very effective representations for downstream tasks. However, there has only been limited use of {SSL} to learn effective representations of gait and movement, and it has not been applied to gait analysis with {MMC}. One {SSL} objective that has not been applied to gait is contrastive learning, which finds representations that place similar samples closer together in the learned space. If the learned similarity metric captures clinically meaningful differences, this could produce a useful representation for many downstream clinical tasks. Contrastive learning can also be combined with causal masking to predict future timesteps, which is an appealing {SSL} objective given the dynamical nature of gait. We applied these techniques to gait analyses performed with {MMC} in a rehabilitation hospital from a diverse clinical population. We find that contrastive learning on unannotated gait data learns a representation that captures clinically meaningful information. We probe this learned representation using the framework of biomarkers and show it holds promise as both a diagnostic and response biomarker, by showing it can accurately classify diagnosis from gait and is responsive to inpatient therapy, respectively. We ultimately hope these learned representations will enable predictive and prognostic gait-based biomarkers that can facilitate precision rehabilitation through greater use of {MMC} to quantify movement in rehabilitation.},
 	pages = {277--291},
 	booktitle = {Predictive Intelligence in Medicine},
 	author = {Cotton, R. James and Peiffer, J.D. and Shah, Kunal and DeLillo, Allison and Cimorelli, Anthony and Anarwala, Shawana and Abdou, Kayan and Karakostas, Tasos},
 	date = {2023},
 	keywords = {gait analysis, rehabilitation, contrastive learning, gait biomarkers, markerless motion capture, self-supervised learning},
 	year = {2023},
-	preview={fusing_fig.png},
+	preview={ssl_fig.png},
 	selected={true}
 }
 
@@ -60,3 +61,19 @@
   preview = {hyperpolarized_fig.png}
 }
 
+@misc{unger_differentiable_2024,
+	title = {Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation: A Comparison with Optical Motion Capture},
+	url = {http://arxiv.org/abs/2411.14992},
+	doi = {10.48550/arXiv.2411.14992},
+	shorttitle = {Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation},
+	abstract = {Marker-based Optical Motion Capture ({OMC}) paired with biomechanical modeling is currently considered the most precise and accurate method for measuring human movement kinematics. However, combining differentiable biomechanical modeling with Markerless Motion Capture ({MMC}) offers a promising approach to motion capture in clinical settings, requiring only minimal equipment, such as synchronized webcams, and minimal effort for data collection. This study compares key kinematic outcomes from biomechanically modeled {MMC} and {OMC} data in 15 stroke patients performing the drinking task, a functional task recommended for assessing upper limb movement quality. We observed a high level of agreement in kinematic trajectories between {MMC} and {OMC}, as indicated by high correlations (median r above 0.95 for the majority of kinematic trajectories) and median {RMSE} values ranging from 2-5 degrees for joint angles, 0.04 m/s for end-effector velocity, and 6 mm for trunk displacement. Trial-to-trial biases between {OMC} and {MMC} were consistent within participant sessions, with interquartile ranges of bias around 1-3 degrees for joint angles, 0.01 m/s in end-effector velocity, and approximately 3mm for trunk displacement. Our findings indicate that our {MMC} for arm tracking is approaching the accuracy of marker-based methods, supporting its potential for use in clinical settings. {MMC} could provide valuable insights into movement rehabilitation in stroke patients, potentially enhancing the effectiveness of rehabilitation strategies.},
+	number = {{arXiv}:2411.14992},
+	publisher = {{arXiv}},
+	author = {Unger, Tim and Moslehian, Arash Sal and Peiffer, J.D. and Ullrich, Johann and Gassert, Roger and Lambercy, Olivier and Cotton, R. James and Easthope, Chris Awai},
+	urldate = {2024-11-25},
+	date = {2024-11-22},
+	eprinttype = {arxiv},
+	eprint = {2411.14992},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	year = {2024},
+}
