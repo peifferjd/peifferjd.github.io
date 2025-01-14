@@ -32,11 +32,11 @@
   preview={fusing_fig.png},
   selected={true}
 }
+
 @inproceedings{cotton_self-supervised_2023,
 	title = {Self-Supervised Learning of Gait-Based Biomarkers},
 	isbn = {978-3-031-46005-0},
 	doi = {10.1007/978-3-031-46005-0_24},
-	abstract = {Markerless motion capture ({MMC}) is revolutionizing gait analysis in clinical settings by making it more accessible, raising the question of how to extract the most clinically meaningful information from gait data. In multiple fields ranging from image processing to natural language processing, self-supervised learning ({SSL}) from large amounts of unannotated data produces very effective representations for downstream tasks. However, there has only been limited use of {SSL} to learn effective representations of gait and movement, and it has not been applied to gait analysis with {MMC}. One {SSL} objective that has not been applied to gait is contrastive learning, which finds representations that place similar samples closer together in the learned space. If the learned similarity metric captures clinically meaningful differences, this could produce a useful representation for many downstream clinical tasks. Contrastive learning can also be combined with causal masking to predict future timesteps, which is an appealing {SSL} objective given the dynamical nature of gait. We applied these techniques to gait analyses performed with {MMC} in a rehabilitation hospital from a diverse clinical population. We find that contrastive learning on unannotated gait data learns a representation that captures clinically meaningful information. We probe this learned representation using the framework of biomarkers and show it holds promise as both a diagnostic and response biomarker, by showing it can accurately classify diagnosis from gait and is responsive to inpatient therapy, respectively. We ultimately hope these learned representations will enable predictive and prognostic gait-based biomarkers that can facilitate precision rehabilitation through greater use of {MMC} to quantify movement in rehabilitation.},
 	pages = {277--291},
 	booktitle = {Predictive Intelligence in Medicine},
 	publisher = {Springer Nature Switzerland},
