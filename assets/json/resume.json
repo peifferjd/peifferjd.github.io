@@ -181,5 +181,15 @@
       "startDate": "2022-09-06",
       "url": "https://example.com"
     }
+  ],
+  "volunteer": [
+    {
+      "organization": "National Biomechanics Day",
+      "position": "Speaker",
+      "url": "https://thebiomechanicsinitiative.org/",
+      "startDate": "2023-04-01",
+      "summary": "Developed interactive sessions for high school students to learn about biomechanics, prosthetics and computer vision.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
   ]
 }
