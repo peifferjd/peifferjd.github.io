@@ -39,40 +39,19 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "teaching",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-image-galleries",
+        },{id: "post-a-post-with-image-galleries",
       
         title: "a post with image galleries",
       
@@ -438,18 +417,8 @@ ninja.data = [{
           section: "News",},{id: "news-after-a-hackthon-in-vitznau-my-collegues-and-i-have-released-our-validation-of-our-markerless-biomechanics-reconstruction-for-the-upper-extremity",
           title: 'After a hackthon in Vitznau, my collegues and I have released our validation...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
+          section: "News",},{id: "projects-in-clinic-data-collection",
+          title: 'in clinic data collection',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
@@ -468,21 +437,26 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-video-sensor-fusion",
+          title: 'video sensor fusion',
+          description: "combining wearables and video",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fusion/";
+            },},{id: "projects-monocular-biomechanical-reconstruction",
+          title: 'monocular biomechanical reconstruction',
+          description: "accurate biomechanical measures from a handheld smartphone camera",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/monocular/";
+            },},{id: "projects-multiview-biomechanical-reconstruction",
+          title: 'multiview biomechanical reconstruction',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multiview/";
             },},{
         id: 'social-email',
         title: 'email',
