@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "work, fun, and in between",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -457,6 +457,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/multiview/";
+            },},{id: "teachings-national-biomechanics-day",
+          title: 'National Biomechanics Day',
+          description: "introduction to computer vision",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/nbd/";
             },},{
         id: 'social-email',
         title: 'email',
