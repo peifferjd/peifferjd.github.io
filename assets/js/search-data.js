@@ -411,10 +411,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-presented-my-work-on-smartphone-video-and-wearable-sensor-fusion-in-heidelberg-germany-for-biorob-2024",
           title: 'I presented my work on smartphone video and wearable sensor fusion in Heidelberg,...',
           description: "",
-          section: "News",},{id: "news-i-ran-the-chicago-marathon",
-          title: 'I ran the Chicago Marathon.',
+          section: "News",},{id: "news-i-present-to-high-school-students-for-national-biomechanics-day",
+          title: 'I present to high school students for National Biomechanics Day!',
           description: "",
-          section: "News",},{id: "news-2nd-place-paper-at-icorr",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
+            },},{id: "news-2nd-place-paper-at-icorr",
           title: '2nd place paper at ICORR',
           description: "",
           section: "News",handler: () => {
