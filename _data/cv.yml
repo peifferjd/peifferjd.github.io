@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: J.D. Peiffer
   headline: PhD Candidate in Biomedical Engineering
@@ -14,7 +13,7 @@ cv:
 
   sections:
 
-    education:
+    Education:
       - institution: Northwestern University / Shirley Ryan AbilityLab
         area: Biomedical Engineering
         degree: MS, PhD
@@ -43,7 +42,7 @@ cv:
           - "GPA: 3.92 | Emphasis: Bioinformatics | Minor: Mathematics"
           - "Honors Scholar; Dean's List (all semesters)"
 
-    experience:
+    Experience:
       - company: Meta Reality Labs
         position: Research Scientist Intern
         start_date: 2025-06
@@ -83,7 +82,7 @@ cv:
           - Built a semi-automated image segmentation, registration, and quantification pipeline enabling large-cohort comparison of 129Xe MRI vs. 99mTc SPECT; first-author publication in Academic Radiology (2024).
           - Received Audience Choice Award for oral presentation at International Workshop on Pulmonary Functional Imaging (2019).
 
-    teaching:
+    Teaching:
       - company: Northwestern University
         position: "Teaching Assistant — Biomedical Applications of Machine Learning"
         start_date: 2025-03
@@ -100,7 +99,7 @@ cv:
           - Created curriculum introducing graduate students to scientific data manipulation and parallel computation job submission on HPC clusters.
 
 
-    publications:
+    Publications:
       - title: "Probabilistic Monocular Biomechanical Reconstruction via Guided Flow Matching"
         authors:
           - R. James Cotton
@@ -270,13 +269,13 @@ cv:
         journal: arXiv
         date: 2023-03
 
-    selected_talks:
+    Selected Talks:
       - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
       - bullet: "**Leveraging AI for Real-World Biomechanical Reconstruction from a Single Moving Camera**, European Society of Biomechanics, Zurich, Switzerland (2025)"
       - bullet: "**Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation**, International Consortium for Rehabilitation Robotics, Chicago, IL (2025)"
       - bullet: "**Accurate Lower Body Kinematics Using a Handheld Smartphone**, American Society of Biomechanics Annual Meeting, Madison, WI (2024)"
 
-    selected_honors:
+    Selected Honors:
       - bullet: "**NSF Graduate Research Fellowship**, National Science Foundation (2022)"
       - bullet: "**Fulbright-Mitacs Globalink Internship** (2020)"
       - bullet: NIH T32 Training Grant (2024)
@@ -287,17 +286,37 @@ cv:
       - bullet: 2 x Boston Marathon Qualifier (2024, 2025)
       - bullet: Cherng Summer Scholar, University of Missouri (2019)
 
-    skills:
-      - label: Languages
-        details: Python, C++, R
-      - label: ML Frameworks
-        details: "JAX (Jaxlie), PyTorch (Pytorch3D), TensorFlow, MuJoCo/MJX, OpenCV"
-      - label: Infrastructure
-        details: "Docker, Kubernetes, Git, SQL, Datajoint, W&B"
-      - label: Research Areas
-        details: "Computer Vision, Sensor Fusion, Biomechanics, Wearables, Self-Supervised Learning, Generative Models"
+    Skills:
+      - name: Languages
+        keywords:
+          - Python
+          - C++
+          - R
+      - name: ML Frameworks
+        keywords:
+          - "JAX (Jaxlie)"
+          - "PyTorch (Pytorch3D)"
+          - TensorFlow
+          - "MuJoCo/MJX"
+          - OpenCV
+      - name: Infrastructure
+        keywords:
+          - Docker
+          - Kubernetes
+          - Git
+          - SQL
+          - Datajoint
+          - "W&B"
+      - name: Research Areas
+        keywords:
+          - Computer Vision
+          - Sensor Fusion
+          - Biomechanics
+          - Wearables
+          - Self-Supervised Learning
+          - Generative Models
 
-    service:
+    Service:
       - company: National Biomechanics Day
         position: Speaker
         start_date: 2023-04
@@ -313,18 +332,3 @@ cv:
         end_date: 2020-08
         highlights:
           - Organized a week-long adaptive sports service trip (Ski Apache, NM) for 12 participants; assisted in instruction of students with visual, cognitive, and physical disabilities.
-
-design:
-  theme: sb2nov
-
-settings:
-  current_date: today
-  render_command:
-    output_folder: rendercv_output
-    dont_generate_markdown: false
-    dont_generate_html: false
-    dont_generate_typst: false
-    dont_generate_pdf: false
-    dont_generate_png: false
-  bold_keywords: []
-  pdf_title: NAME - CV
