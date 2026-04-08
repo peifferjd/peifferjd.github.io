@@ -1,0 +1,330 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: J.D. Peiffer
+  headline: PhD Candidate in Biomedical Engineering
+  location: Chicago, IL
+  email: jd.peiffer@gmail.com
+  phone: "+16365792201"
+  website: https://jdpeiffer.com
+  social_networks:
+    - network: LinkedIn
+      username: jdpeiffer
+    - network: GitHub
+      username: peifferjd
+
+  sections:
+
+    education:
+      - institution: Northwestern University / Shirley Ryan AbilityLab
+        area: Biomedical Engineering
+        degree: MS, PhD
+        start_date: 2022-09
+        end_date: 2026-09
+        location: Chicago, IL
+        highlights:
+          - "GPA: 3.81 | Center for Bionic Medicine, Shirley Ryan AbilityLab"
+          - "NSF Graduate Research Fellowship (2022); NIH T32 Training Grant (2024)"
+      - institution: Washington University in St. Louis
+        area: Biomedical Engineering
+        degree: Rotation Student
+        start_date: 2021-08
+        end_date: 2022-07
+        location: St. Louis, MO
+        highlights:
+          - "GPA: 3.58"
+          - "Rotations in cervical myelopathy motion characterization, EEG decoding, and spinal cord stimulation"
+      - institution: University of Missouri
+        area: Biomedical Engineering
+        degree: BS
+        start_date: 2017-08
+        end_date: 2021-05
+        location: Columbia, MO
+        highlights:
+          - "GPA: 3.92 | Emphasis: Bioinformatics | Minor: Mathematics"
+          - "Honors Scholar; Dean's List (all semesters)"
+
+    experience:
+      - company: Meta Reality Labs
+        position: Research Scientist Intern
+        start_date: 2025-06
+        end_date: 2026-02
+        location: Redmond, WA
+        highlights:
+          - Implemented real-time C++ hand pose estimation and IK solver pipeline on the Glove Sensing and Tracking Team, achieving best-in-class accuracy and occlusion robustness for full dexterous hand pose capture.
+          - Led algorithm development resulting in first-author IROS submission on a fiber optic sensing glove for high-performance dexterous manipulation capture.
+      - company: Center for Bionic Medicine, Shirley Ryan AbilityLab
+        position: PhD Researcher
+        start_date: 2022-09
+        end_date: present
+        location: Chicago, IL
+        highlights:
+          - Designed and validated deep learning models for monocular biomechanical pose estimation and uncalibrated IMU–video sensor fusion, achieving joint angle errors <3° across neurological, prosthesis, and pediatric populations; 8 peer-reviewed publications. Developed OpenCV-based multi-camera calibration pipelines (intrinsic and extrinsic) for markerless motion capture deployment across clinical sites.
+          - Developed the Portable Biomechanics Laboratory — a cloud-enabled smartphone gait analysis system achieving ICC > 0.9 for gait metrics and greater sensitivity to decompression surgery outcome than standard mJOA patient-reported outcomes.
+          - Trained a contrastive learning + causal masking transformer on unannotated clinical gait data; demonstrated learned embeddings classify neurological diagnosis and track response to inpatient therapy.
+      - company: Neuromuscular Control & Biomechanics Laboratory
+        position: Fulbright-Mitacs Globalink Intern
+        start_date: 2020-05
+        end_date: 2020-08
+        highlights:
+          - Computationally modeled seated human trunk biomechanics under Functional Electrical Stimulation (FES) and designed LQR and fuzzy inference (FIS) feedback controllers; validated closed-loop stability in simulation.
+      - company: MU Neural Engineering Laboratory
+        position: Undergraduate Researcher
+        start_date: 2020-08
+        end_date: 2021-05
+        location: Columbia, MO
+        highlights:
+          - Developed and optimized a closed-loop gamma oscillation detection and modulation algorithm achieving <2 ms latency on embedded hardware; open-sourced on [GitHub](https://github.com/jdpeiffer6/ClosedLoopGamma).
+      - company: Pulmonary Imaging Research Laboratory, University of Missouri
+        position: Undergraduate Researcher
+        start_date: 2018-08
+        end_date: 2021-05
+        location: Columbia, MO
+        highlights:
+          - Built a semi-automated image segmentation, registration, and quantification pipeline enabling large-cohort comparison of 129Xe MRI vs. 99mTc SPECT; first-author publication in Academic Radiology (2024).
+          - Received Audience Choice Award for oral presentation at International Workshop on Pulmonary Functional Imaging (2019).
+
+    teaching:
+      - company: Northwestern University
+        position: "Teaching Assistant — Biomedical Applications of Machine Learning"
+        start_date: 2025-03
+        end_date: 2025-06
+        location: Chicago, IL
+        highlights:
+          - Instructed graduate students in Python-based ML including data preprocessing, regression, tree-based methods, DNNs, and CNNs.
+      - company: University of Missouri
+        position: "Teaching Assistant — Advanced Hydroinformatics"
+        start_date: 2020-01
+        end_date: 2021-05
+        location: Columbia, MO
+        highlights:
+          - Created curriculum introducing graduate students to scientific data manipulation and parallel computation job submission on HPC clusters.
+
+
+    publications:
+      - title: "Probabilistic Monocular Biomechanical Reconstruction via Guided Flow Matching"
+        authors:
+          - R. James Cotton
+          - '*J.D. Peiffer*'
+          - Fabian Sinz
+        journal: ECCV, In Review
+      - title: "Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture"
+        authors:
+          - '*J.D. Peiffer*'
+          - Taylor Niehues
+          - Li Guan
+          - Ziyi Kou
+          - Ergys Ristani
+        journal: IROS, In Review
+      - title: "Monocular Markerless Motion Capture Enables Quantitative Assessment of Upper Extremity Reachable Workspace"
+        authors:
+          - Seth Donahue
+          - '*J.D. Peiffer*'
+          - R. Tyler Richardson
+          - Yishan Zhong
+          - Shaun Q. Y. Tan
+          - Benoit Marteau
+          - Stephanie R. Russo
+          - May D. Wang
+          - R. James Cotton
+          - Ross Chafetz
+        doi: 10.48550/arXiv.2602.13176
+        url: http://arxiv.org/abs/2602.13176
+        journal: arXiv
+        date: 2026-02
+      - title: "Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation: A Comparison With Optical Motion Capture"
+        authors:
+          - Tim Unger
+          - Arash Sal Moslehian
+          - '*J.D. Peiffer*'
+          - Johann Ullrich
+          - Roger Gassert
+          - Olivier Lambercy
+          - R. James Cotton
+          - Chris Awai Easthope
+        doi: 10.1109/TMRB.2025.3605962
+        url: https://ieeexplore.ieee.org/abstract/document/11151697
+        journal: "IEEE Transactions on Medical Robotics and Bionics | 2nd Place Best Student Paper, ICORR 2025"
+        date: 2026-02
+      - title: "Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone"
+        authors:
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Irina Djuraskovic
+          - Shawana Anarwala
+          - Kayan Abdou
+          - Rujvee Patel
+          - Prakash Jayabalan
+          - Brenton Pennicooke
+          - R. James Cotton
+        doi: 10.48550/arXiv.2507.08268
+        url: https://arxiv.org/abs/2507.08268
+        journal: npj Digital Medicine, In Review
+        date: 2025-07
+      - title: "Efficacy and feasibility of synergy-based multichannel functional electrical stimulation for chronic stroke gait rehabilitation: a pilot study"
+        authors:
+          - Jackson T. Levine
+          - Xin S. Yu
+          - Rebecca Munoz
+          - Alaina Fiorenza
+          - Tyler Smith
+          - Irina Djuraskovic
+          - '*J.D. Peiffer*'
+          - Emilia Ambrosini
+          - Simona Ferrante
+          - Rebecca Webster
+        url: https://www.medrxiv.org/content/10.1101/2025.05.21.25328035v2
+        journal: medRxiv, In Review
+        date: 2025-05
+      - title: Fusing Uncalibrated IMUs and Handheld Smartphone Video to Reconstruct Knee Kinematics
+        authors:
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Shawana Anarwala
+          - Kayan Abdou
+          - R. James Cotton
+        doi: 10.1109/BioRob60516.2024.10719724
+        url: https://ieeexplore.ieee.org/document/10719724
+        journal: BioRob 2024
+        date: 2024-09
+      - title: Biomechanical Arm and Hand Tracking with Multiview Markerless Motion Capture
+        authors:
+          - Pouyan Firouzabadi
+          - Wendy Murray
+          - Anton R Sobinov
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Lee E Miller
+          - R. James Cotton
+        doi: 10.1109/BioRob60516.2024.10719940
+        url: https://ieeexplore.ieee.org/document/10719940
+        journal: BioRob 2024
+        date: 2024-09
+      - title: "Hyperpolarized 129Xe MRI, 99mTc scintigraphy, and SPECT in lung ventilation imaging: a quantitative comparison"
+        authors:
+          - '*J.D. Peiffer*'
+          - Talissa Altes
+          - Iulian C. Ruset
+          - F. W. Hersman
+          - John P. Mugler
+          - Craig H. Meyer
+          - Jamie Mata
+          - Kun Qing
+          - Robert Thomen
+        doi: 10.1016/j.acra.2023.10.038
+        url: https://www.sciencedirect.com/science/article/pii/S1076633223005913
+        journal: Academic Radiology
+        date: 2024-04
+      - title: Optimizing Trajectories and Inverse Kinematics for Biomechanical Analysis of Markerless Motion Capture Data
+        authors:
+          - R. James Cotton
+          - Allison DeLillo
+          - Anthony Cimorelli
+          - Kunal Shah
+          - '*J.D. Peiffer*'
+          - Shawana Anarwala
+          - Kayan Abdou
+          - Tasos Karakostas
+        doi: 10.1109/ICORR58425.2023.10304683
+        url: https://ieeexplore.ieee.org/document/10304683/
+        journal: ICORR 2023
+        date: 2023-09
+      - title: Self-Supervised Learning of Gait-Based Biomarkers
+        authors:
+          - R. James Cotton
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Allison DeLillo
+          - Anthony Cimorelli
+          - Shawana Anarwala
+          - Kayan Abdou
+          - Tasos Karakostas
+        doi: 10.1007/978-3-031-46005-0_24
+        url: https://link.springer.com/chapter/10.1007/978-3-031-46005-0_24
+        journal: Predictive Intelligence in Medicine (Springer)
+        date: 2023-09
+      - title: Enhanced selectivity of transcutaneous spinal cord stimulation by multielectrode configuration
+        authors:
+          - Noah Bryson
+          - Lorenzo Lombardi
+          - Rachel Hawthorn
+          - Jie Fei
+          - Rodolfo Keesey
+          - '*J.D. Peiffer*'
+          - Ismael Seáñez
+        doi: 10.1088/1741-2552/ace552
+        url: https://iopscience.iop.org/article/10.1088/1741-2552/ace552
+        journal: Journal of Neural Engineering
+        date: 2023-08
+      - title: Markerless Motion Capture and Biomechanical Analysis Pipeline
+        authors:
+          - R. James Cotton
+          - Allison DeLillo
+          - Anthony Cimorelli
+          - Kunal Shah
+          - '*J.D. Peiffer*'
+          - Shawana Anarwala
+          - Kayan Abdou
+          - Tasos Karakostas
+        doi: 10.48550/arXiv.2303.10654
+        url: http://arxiv.org/abs/2303.10654
+        journal: arXiv
+        date: 2023-03
+
+    selected_talks:
+      - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
+      - bullet: "**Leveraging AI for Real-World Biomechanical Reconstruction from a Single Moving Camera**, European Society of Biomechanics, Zurich, Switzerland (2025)"
+      - bullet: "**Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation**, International Consortium for Rehabilitation Robotics, Chicago, IL (2025)"
+      - bullet: "**Accurate Lower Body Kinematics Using a Handheld Smartphone**, American Society of Biomechanics Annual Meeting, Madison, WI (2024)"
+
+    selected_honors:
+      - bullet: "**NSF Graduate Research Fellowship**, National Science Foundation (2022)"
+      - bullet: "**Fulbright-Mitacs Globalink Internship** (2020)"
+      - bullet: NIH T32 Training Grant (2024)
+      - bullet: "**Best Paper Award**, IEEE BioRob (2026)"
+      - bullet: 2nd Place Best Student Paper, ICORR (2025)
+      - bullet: Barry M. Goldwater Scholarship Campus Nomination (2019)
+      - bullet: Audience Choice Award, International Workshop on Pulmonary Functional Imaging (2019)
+      - bullet: 2 x Boston Marathon Qualifier (2024, 2025)
+      - bullet: Cherng Summer Scholar, University of Missouri (2019)
+
+    skills:
+      - label: Languages
+        details: Python, C++, R
+      - label: ML Frameworks
+        details: "JAX (Jaxlie), PyTorch (Pytorch3D), TensorFlow, MuJoCo/MJX, OpenCV"
+      - label: Infrastructure
+        details: "Docker, Kubernetes, Git, SQL, Datajoint, W&B"
+      - label: Research Areas
+        details: "Computer Vision, Sensor Fusion, Biomechanics, Wearables, Self-Supervised Learning, Generative Models"
+
+    service:
+      - company: National Biomechanics Day
+        position: Speaker
+        start_date: 2023-04
+        end_date: present
+        summary: Developed interactive sessions for high school students on biomechanics, prosthetics, computer vision, and AI for medical image analysis.
+      - company: "BioRob, IROS, iScience, CMBBE — Imaging & Visualization"
+        position: Peer Reviewer
+        start_date: 2022-04
+        end_date: present
+      - company: Mizzou Alternative Breaks
+        position: Site Leader
+        start_date: 2018-11
+        end_date: 2020-08
+        highlights:
+          - Organized a week-long adaptive sports service trip (Ski Apache, NM) for 12 participants; assisted in instruction of students with visual, cognitive, and physical disabilities.
+
+design:
+  theme: sb2nov
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
