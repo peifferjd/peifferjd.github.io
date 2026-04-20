@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-20'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
     citations: 15
@@ -10,7 +10,7 @@ papers:
     title: Self-supervised learning of gait-based biomarkers
     year: '2023'
   JuoR3ewAAAAJ:IjCSPb-OGe4C:
-    citations: 7
+    citations: 8
     title: Biomechanical Arm and Hand Tracking with Multiview Markerless Motion Capture
     year: '2024'
   JuoR3ewAAAAJ:Tyk-4Ss8FVUC:
