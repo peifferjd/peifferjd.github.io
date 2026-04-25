@@ -278,7 +278,6 @@ cv:
       - bullet: "**NSF Graduate Research Fellowship**, National Science Foundation (2022)"
       - bullet: "**Fulbright-Mitacs Globalink Internship** (2020)"
       - bullet: NIH T32 Training Grant (2024)
-      - bullet: "**Best Paper Award**, IEEE BioRob (2026)"
       - bullet: 2nd Place Best Student Paper, ICORR (2025)
       - bullet: Barry M. Goldwater Scholarship Campus Nomination (2019)
       - bullet: Audience Choice Award, International Workshop on Pulmonary Functional Imaging (2019)
@@ -319,7 +318,7 @@ cv:
       - company: National Biomechanics Day
         position: Speaker
         start_date: 2023-04
-        end_date: present
+        end_date: 2025-04 
         summary: Developed interactive sessions for high school students on biomechanics, prosthetics, computer vision, and AI for medical image analysis.
       - company: "BioRob, IROS, iScience, CMBBE — Imaging & Visualization"
         position: Peer Reviewer
