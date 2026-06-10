@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-27'
+  last_updated: '2026-06-10'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
     citations: 17
@@ -22,7 +22,7 @@ papers:
     title: Fusing uncalibrated IMUs and handheld smartphone video to reconstruct knee kinematics
     year: '2024'
   JuoR3ewAAAAJ:W7OEmFMy1HYC:
-    citations: 3
+    citations: 6
     title: 'Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone'
     year: '2025'
   JuoR3ewAAAAJ:Y0pCki6q_DkC:
@@ -42,7 +42,7 @@ papers:
     title: 'Hyperpolarized 129Xe MRI, 99mTc scintigraphy, and SPECT in lung ventilation imaging: a quantitative comparison'
     year: '2024'
   JuoR3ewAAAAJ:u-x6o8ySG0sC:
-    citations: 30
+    citations: 32
     title: Enhanced selectivity of transcutaneous spinal cord stimulation by multielectrode configuration
     year: '2023'
   JuoR3ewAAAAJ:u5HHmVD_uO8C:
