@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-24'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
-    citations: 17
+    citations: 40
     title: Optimizing trajectories and inverse kinematics for biomechanical analysis of markerless motion capture data
     year: '2023'
   JuoR3ewAAAAJ:9yKSN-GCB0IC:
@@ -10,7 +10,7 @@ papers:
     title: Self-supervised learning of gait-based biomarkers
     year: '2023'
   JuoR3ewAAAAJ:IjCSPb-OGe4C:
-    citations: 11
+    citations: 12
     title: Biomechanical Arm and Hand Tracking with Multiview Markerless Motion Capture
     year: '2024'
   JuoR3ewAAAAJ:Tyk-4Ss8FVUC:
@@ -22,9 +22,9 @@ papers:
     title: Fusing uncalibrated IMUs and handheld smartphone video to reconstruct knee kinematics
     year: '2024'
   JuoR3ewAAAAJ:W7OEmFMy1HYC:
-    citations: 6
-    title: Portable biomechanics laboratory enables clinically accessible movement analysis from a handheld smartphone
-    year: '2026'
+    citations: 7
+    title: 'Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone'
+    year: '2025'
   JuoR3ewAAAAJ:Y0pCki6q_DkC:
     citations: 0
     title: 'Efficacy and feasibility of synergy-based multichannel functional electrical stimulation for chronic stroke gait rehabilitation: a pilot study'
@@ -45,15 +45,11 @@ papers:
     citations: 32
     title: Enhanced selectivity of transcutaneous spinal cord stimulation by multielectrode configuration
     year: '2023'
-  JuoR3ewAAAAJ:u5HHmVD_uO8C:
-    citations: 26
-    title: Markerless Motion Capture and Biomechanical Analysis Pipeline
-    year: '2023'
   JuoR3ewAAAAJ:ufrVoPGSRksC:
     citations: 0
     title: Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants
     year: '2026'
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
-    citations: 19
+    citations: 21
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
     year: '2025'
