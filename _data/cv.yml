@@ -1,8 +1,10 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: J.D. Peiffer
   headline: PhD Candidate in Biomedical Engineering
   location: Chicago, IL
-  email: jd.peiffer {at} gmail.com
+  email: jd.peiffer@gmail.com
+  phone: "+16365792201"
   website: https://jdpeiffer.com
   social_networks:
     - network: LinkedIn
@@ -17,7 +19,6 @@ cv:
         area: Biomedical Engineering
         degree: MS, PhD
         start_date: 2022-09
-        end_date: 2026-09
         location: Chicago, IL
         highlights:
           - "GPA: 3.81 | Center for Bionic Medicine, Shirley Ryan AbilityLab"
@@ -42,23 +43,28 @@ cv:
           - "Honors Scholar; Dean's List (all semesters)"
 
     Experience:
-      - company: Meta Reality Labs
-        position: Research Scientist Intern
-        start_date: 2025-06
-        end_date: 2026-02
-        location: Redmond, WA
-        highlights:
-          - Implemented real-time C++ hand pose estimation and IK solver pipeline on the Glove Sensing and Tracking Team, achieving best-in-class accuracy and occlusion robustness for full dexterous hand pose capture.
-          - Led algorithm development resulting in first-author IROS submission on a fiber optic sensing glove for high-performance dexterous manipulation capture.
       - company: Center for Bionic Medicine, Shirley Ryan AbilityLab
         position: PhD Researcher
         start_date: 2022-09
         end_date: present
         location: Chicago, IL
         highlights:
-          - Designed and validated deep learning models for monocular biomechanical pose estimation and uncalibrated IMU–video sensor fusion, achieving joint angle errors <3° across neurological, prosthesis, and pediatric populations; 8 peer-reviewed publications. Developed OpenCV-based multi-camera calibration pipelines (intrinsic and extrinsic) for markerless motion capture deployment across clinical sites.
-          - Developed the Portable Biomechanics Laboratory — a cloud-enabled smartphone gait analysis system achieving ICC > 0.9 for gait metrics and greater sensitivity to decompression surgery outcome than standard mJOA patient-reported outcomes.
-          - Trained a contrastive learning + causal masking transformer on unannotated clinical gait data; demonstrated learned embeddings classify neurological diagnosis and track response to inpatient therapy.
+          - Led end-to-end clinical AI research spanning computer vision, multimodal sensing, and biomechanical modeling, taking models from research through validated clinical deployment; produced 10 peer-reviewed publications (>145 citations in <4 years).
+          - Developed and released the Portable Biomechanics Laboratory — the first clinically validated single-camera smartphone gait analysis system, achieving joint angle errors <3°, with derived biomarkers showing greater responsiveness to surgical intervention than standard outcomes; first-author paper in npj Digital Medicine (Nature). Deployed at external sites including Shriners Children's and the Lake Lucerne Institute, both of which published independent studies using it.
+          - Designed a neural-network fusion of uncalibrated IMU and monocular smartphone video, cutting knee angle error 26% while maintaining accuracy through visual occlusions.
+          - Built multi-camera calibration and SAM-based pseudo-labeling pipelines, generating pseudo-ground-truth annotations to train and benchmark monocular scene reconstruction.
+          - Trained a contrastive learning + causal masking transformer on unannotated clinical gait data; demonstrated learned embeddings classify neurological diagnosis and track patient response to inpatient therapy.
+          - Coordinated study design and protocol development across >300 participants at 3 external sites with neurosurgeons, physiotherapists, and engineers; mentored master's students and provided technical direction to engineers and post-doctoral researchers.
+          - Presented research through invited podium presentations to the scientific community and to life-sciences partners including Eli Lilly.
+      - company: Meta Reality Labs — Glove Sensing and Tracking Team
+        position: Research Scientist Intern
+        start_date: 2025-06
+        end_date: 2026-02
+        location: Redmond, WA
+        highlights:
+          - Implemented a real-time C++ hand pose estimation and IK solver pipeline, achieving best-in-class accuracy and occlusion robustness for full hand pose estimation during dexterous manipulation.
+          - Trained a CNN+Transformer model on sensor data for data-driven accuracy evlauation; deployed to cloud servers for evaluation. 
+          - Coordinated data collection and benchmarking dataset design for sensing glove, resulting in a first-author IROS paper on high-performance dexterous manipulation capture.
       - company: Neuromuscular Control & Biomechanics Laboratory
         position: Fulbright-Mitacs Globalink Intern
         start_date: 2020-05
@@ -96,15 +102,12 @@ cv:
         location: Columbia, MO
         highlights:
           - Created curriculum introducing graduate students to scientific data manipulation and parallel computation job submission on HPC clusters.
-
+      - company: Vail Resorts
+        position: Ski Instructor
+        start_date: 2018-12
+        end_date: present 
 
     Publications:
-      - title: "Probabilistic Monocular Biomechanical Reconstruction via Guided Flow Matching"
-        authors:
-          - R. James Cotton
-          - '*J.D. Peiffer*'
-          - Fabian Sinz
-        journal: ECCV, In Review
       - title: "Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture"
         authors:
           - '*J.D. Peiffer*'
@@ -112,7 +115,32 @@ cv:
           - Li Guan
           - Ziyi Kou
           - Ergys Ristani
-        journal: IROS, In Review
+        journal: IROS (Accepted)
+      - title: "Portable biomechanics laboratory enables clinically accessible movement analysis from a handheld smartphone"
+        authors:
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Irina Djuraskovic
+          - Shawana Anarwala
+          - Kayan Abdou
+          - Rujvee Patel
+          - Prakash Jayabalan
+          - Brenton Pennicooke
+          - R. James Cotton
+        doi: 10.1038/s41746-026-02825-w
+        url: https://doi.org/10.1038/s41746-026-02825-w
+        journal: npj Digital Medicine
+        date: 2026-06
+      - title: "Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants"
+        authors:
+          - Divya Joshi
+          - '*J.D. Peiffer*'
+          - Colleen Peyton
+          - R. James Cotton
+        doi: 10.48550/arXiv.2605.17120
+        url: http://arxiv.org/abs/2605.17120
+        journal: EMBC (Accepted)
+        date: 2026-05
       - title: "Monocular Markerless Motion Capture Enables Quantitative Assessment of Upper Extremity Reachable Workspace"
         authors:
           - Seth Donahue
@@ -120,15 +148,15 @@ cv:
           - R. Tyler Richardson
           - Yishan Zhong
           - Shaun Q. Y. Tan
-          - Benoit Marteau
-          - Stephanie R. Russo
+          - Benoit L. Marteau
+          - Stephanie A. Russo
           - May D. Wang
           - R. James Cotton
           - Ross Chafetz
-        doi: 10.48550/arXiv.2602.13176
-        url: http://arxiv.org/abs/2602.13176
-        journal: arXiv
-        date: 2026-02
+        doi: 10.3390/s26113421
+        url: https://www.mdpi.com/1424-8220/26/11/3421
+        journal: "Sensors, 26(11), 3421"
+        date: 2026-05
       - title: "Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation: A Comparison With Optical Motion Capture"
         authors:
           - Tim Unger
@@ -143,21 +171,6 @@ cv:
         url: https://ieeexplore.ieee.org/abstract/document/11151697
         journal: "IEEE Transactions on Medical Robotics and Bionics | 2nd Place Best Student Paper, ICORR 2025"
         date: 2026-02
-      - title: "Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone"
-        authors:
-          - '*J.D. Peiffer*'
-          - Kunal Shah
-          - Irina Djuraskovic
-          - Shawana Anarwala
-          - Kayan Abdou
-          - Rujvee Patel
-          - Prakash Jayabalan
-          - Brenton Pennicooke
-          - R. James Cotton
-        doi: 10.48550/arXiv.2507.08268
-        url: https://arxiv.org/abs/2507.08268
-        journal: npj Digital Medicine, In Review
-        date: 2025-07
       - title: "Efficacy and feasibility of synergy-based multichannel functional electrical stimulation for chronic stroke gait rehabilitation: a pilot study"
         authors:
           - Jackson T. Levine
@@ -253,20 +266,6 @@ cv:
         url: https://iopscience.iop.org/article/10.1088/1741-2552/ace552
         journal: Journal of Neural Engineering
         date: 2023-08
-      - title: Markerless Motion Capture and Biomechanical Analysis Pipeline
-        authors:
-          - R. James Cotton
-          - Allison DeLillo
-          - Anthony Cimorelli
-          - Kunal Shah
-          - '*J.D. Peiffer*'
-          - Shawana Anarwala
-          - Kayan Abdou
-          - Tasos Karakostas
-        doi: 10.48550/arXiv.2303.10654
-        url: http://arxiv.org/abs/2303.10654
-        journal: arXiv
-        date: 2023-03
 
     Selected Talks:
       - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
@@ -330,3 +329,19 @@ cv:
         end_date: 2020-08
         highlights:
           - Organized a week-long adaptive sports service trip (Ski Apache, NM) for 12 participants; assisted in instruction of students with visual, cognitive, and physical disabilities.
+
+design:
+  theme: sb2nov
+
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: rendercv_output/JD_Peiffer_CV.pdf
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: JD_Peiffer_CV
