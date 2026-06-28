@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-06-24'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
-    citations: 15
+    citations: 40
     title: Optimizing trajectories and inverse kinematics for biomechanical analysis of markerless motion capture data
     year: '2023'
   JuoR3ewAAAAJ:9yKSN-GCB0IC:
@@ -10,7 +10,7 @@ papers:
     title: Self-supervised learning of gait-based biomarkers
     year: '2023'
   JuoR3ewAAAAJ:IjCSPb-OGe4C:
-    citations: 8
+    citations: 12
     title: Biomechanical Arm and Hand Tracking with Multiview Markerless Motion Capture
     year: '2024'
   JuoR3ewAAAAJ:Tyk-4Ss8FVUC:
@@ -18,11 +18,11 @@ papers:
     title: 146 Consistency of Spatiotemporal Parameters Obtained From Smartphone-based 3D Motion Capture With Standard Clinically Graded Gait Analysis
     year: '2025'
   JuoR3ewAAAAJ:UeHWp8X0CEIC:
-    citations: 8
+    citations: 10
     title: Fusing uncalibrated IMUs and handheld smartphone video to reconstruct knee kinematics
     year: '2024'
   JuoR3ewAAAAJ:W7OEmFMy1HYC:
-    citations: 1
+    citations: 7
     title: 'Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone'
     year: '2025'
   JuoR3ewAAAAJ:Y0pCki6q_DkC:
@@ -42,14 +42,14 @@ papers:
     title: 'Hyperpolarized 129Xe MRI, 99mTc scintigraphy, and SPECT in lung ventilation imaging: a quantitative comparison'
     year: '2024'
   JuoR3ewAAAAJ:u-x6o8ySG0sC:
-    citations: 30
+    citations: 32
     title: Enhanced selectivity of transcutaneous spinal cord stimulation by multielectrode configuration
     year: '2023'
-  JuoR3ewAAAAJ:u5HHmVD_uO8C:
-    citations: 24
-    title: Markerless Motion Capture and Biomechanical Analysis Pipeline
-    year: '2023'
+  JuoR3ewAAAAJ:ufrVoPGSRksC:
+    citations: 0
+    title: Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants
+    year: '2026'
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
-    citations: 16
+    citations: 21
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
     year: '2025'
