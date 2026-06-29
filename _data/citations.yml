@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-24'
+  last_updated: '2026-06-29'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
     citations: 40
@@ -30,7 +30,7 @@ papers:
     title: 'Efficacy and feasibility of synergy-based multichannel functional electrical stimulation for chronic stroke gait rehabilitation: a pilot study'
     year: '2025'
   JuoR3ewAAAAJ:YsMSGLbcyi4C:
-    citations: 0
+    citations: 1
     title: 'Usability of iGait@ Healthcore: Gait analysis from a smartphone for use in clinical routine'
     year: '2025'
   JuoR3ewAAAAJ:eQOLeE2rZwMC:
@@ -38,7 +38,7 @@ papers:
     title: Monocular Markerless Motion Capture Enables Quantitative Assessment of Upper Extremity Reachable Workspace
     year: '2026'
   JuoR3ewAAAAJ:qjMakFHDy7sC:
-    citations: 13
+    citations: 14
     title: 'Hyperpolarized 129Xe MRI, 99mTc scintigraphy, and SPECT in lung ventilation imaging: a quantitative comparison'
     year: '2024'
   JuoR3ewAAAAJ:u-x6o8ySG0sC:
@@ -50,6 +50,6 @@ papers:
     title: Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants
     year: '2026'
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
-    citations: 21
+    citations: 23
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
     year: '2025'
