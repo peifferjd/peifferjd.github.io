@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-22'
+  last_updated: '2026-07-29'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
     citations: 42
@@ -56,4 +56,4 @@ papers:
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
     citations: 26
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
-    year: '2025'
+    year: '2024'
