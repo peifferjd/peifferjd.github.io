@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-07'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
-    citations: 42
+    citations: 41
     title: Optimizing trajectories and inverse kinematics for biomechanical analysis of markerless motion capture data
     year: '2023'
   JuoR3ewAAAAJ:9yKSN-GCB0IC:
@@ -10,8 +10,8 @@ papers:
     title: Self-supervised learning of gait-based biomarkers
     year: '2023'
   JuoR3ewAAAAJ:IjCSPb-OGe4C:
-    citations: 13
-    title: Biomechanical Arm and Hand Tracking with Multiview Markerless Motion Capture
+    citations: 15
+    title: Biomechanical arm and hand tracking with multiview markerless motion capture
     year: '2024'
   JuoR3ewAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
@@ -23,7 +23,7 @@ papers:
     year: '2024'
   JuoR3ewAAAAJ:W7OEmFMy1HYC:
     citations: 8
-    title: 'Portable Biomechanics Laboratory: Clinically Accessible Movement Analysis from a Handheld Smartphone'
+    title: 'Portable biomechanics laboratory: clinically accessible movement analysis from a handheld smartphone'
     year: '2025'
   JuoR3ewAAAAJ:Y0pCki6q_DkC:
     citations: 0
@@ -31,14 +31,14 @@ papers:
     year: '2025'
   JuoR3ewAAAAJ:YsMSGLbcyi4C:
     citations: 1
-    title: 'Usability of iGait@ Healthcore: Gait analysis from a smartphone for use in clinical routine'
+    title: 'Usability of iGait@ Healthcore: gait analysis from a smartphone for use in clinical routine'
     year: '2025'
   JuoR3ewAAAAJ:_FxGoFyzp5QC:
     citations: 0
     title: Biomechanics-aware Multi-view Markerless Motion Capture of Dexterous Hand Movements
     year: '2026'
   JuoR3ewAAAAJ:eQOLeE2rZwMC:
-    citations: 0
+    citations: 1
     title: Monocular Markerless Motion Capture Enables Quantitative Assessment of Upper Extremity Reachable Workspace
     year: '2026'
   JuoR3ewAAAAJ:qjMakFHDy7sC:
@@ -56,4 +56,4 @@ papers:
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
     citations: 26
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
-    year: '2024'
+    year: '2025'
