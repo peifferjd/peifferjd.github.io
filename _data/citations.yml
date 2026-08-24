@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-07'
+  last_updated: '2026-08-24'
 papers:
   JuoR3ewAAAAJ:2osOgNQ5qMEC:
-    citations: 41
+    citations: 42
     title: Optimizing trajectories and inverse kinematics for biomechanical analysis of markerless motion capture data
     year: '2023'
   JuoR3ewAAAAJ:9yKSN-GCB0IC:
@@ -10,19 +10,23 @@ papers:
     title: Self-supervised learning of gait-based biomarkers
     year: '2023'
   JuoR3ewAAAAJ:IjCSPb-OGe4C:
-    citations: 15
+    citations: 16
     title: Biomechanical arm and hand tracking with multiview markerless motion capture
     year: '2024'
+  JuoR3ewAAAAJ:LkGwnXOMwfcC:
+    citations: 5
+    title: Markerless Motion Capture and Biomechanical Analysis Pipeline. arXiv 2023
+    year: Unknown Year
   JuoR3ewAAAAJ:Tyk-4Ss8FVUC:
     citations: 0
     title: 146 Consistency of Spatiotemporal Parameters Obtained From Smartphone-based 3D Motion Capture With Standard Clinically Graded Gait Analysis
     year: '2025'
   JuoR3ewAAAAJ:UeHWp8X0CEIC:
-    citations: 10
+    citations: 12
     title: Fusing uncalibrated IMUs and handheld smartphone video to reconstruct knee kinematics
     year: '2024'
   JuoR3ewAAAAJ:W7OEmFMy1HYC:
-    citations: 8
+    citations: 9
     title: 'Portable biomechanics laboratory: clinically accessible movement analysis from a handheld smartphone'
     year: '2025'
   JuoR3ewAAAAJ:Y0pCki6q_DkC:
@@ -38,13 +42,17 @@ papers:
     title: Biomechanics-aware Multi-view Markerless Motion Capture of Dexterous Hand Movements
     year: '2026'
   JuoR3ewAAAAJ:eQOLeE2rZwMC:
-    citations: 1
+    citations: 2
     title: Monocular Markerless Motion Capture Enables Quantitative Assessment of Upper Extremity Reachable Workspace
     year: '2026'
   JuoR3ewAAAAJ:qjMakFHDy7sC:
     citations: 15
     title: 'Hyperpolarized 129Xe MRI, 99mTc scintigraphy, and SPECT in lung ventilation imaging: a quantitative comparison'
     year: '2024'
+  JuoR3ewAAAAJ:roLk4NBRz8UC:
+    citations: 0
+    title: 'Synergy-based functional electrical stimulation for gait rehabilitation in chronic stroke: a pilot study'
+    year: '2025'
   JuoR3ewAAAAJ:u-x6o8ySG0sC:
     citations: 34
     title: Enhanced selectivity of transcutaneous spinal cord stimulation by multielectrode configuration
@@ -54,6 +62,6 @@ papers:
     title: Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants
     year: '2026'
   JuoR3ewAAAAJ:zYLM7Y9cAGgC:
-    citations: 26
+    citations: 27
     title: 'Differentiable biomechanics for markerless motion capture in upper limb stroke rehabilitation: a comparison with optical motion capture'
     year: '2025'
