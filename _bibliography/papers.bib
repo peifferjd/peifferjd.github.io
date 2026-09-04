@@ -91,7 +91,8 @@
 	year = {2026},
 	keywords = {arm biomechanics, Biological system modeling, Biomechanics, Biomimetics, drinking task, End effectors, Markerless motion capture, Medical robotics, Motion capture, Motion measurement, optical motion capture, Optimization, stroke, Stroke (medical condition), Trajectory},
 	pages = {90--97},
-	preview = {llui_fig.png}
+	preview = {llui_fig.png},
+	annotation = {* Equal contribution}
 }
 
 
@@ -160,7 +161,7 @@
 	language = {English},
 	journal = {Frontiers in Rehabilitation Sciences},
 	publisher = {Frontiers},
-	author = {Levine, Jackson Taylor and Yu, Xin and Muñoz, Rebecca and Fiorenza, Alaina and Djuraskovic, Irina and Peiffer, J. D. and Ambrosini, Emilia and Ferrante, Simona and Roth, Elliot J. and Laczko, Jozsef and Cotton, Ronald James and Pedrocchi, Alessandra and Pons, Jose L.},
+	author = {Levine, Jackson Taylor and Yu, Xin and Muñoz, Rebecca and Fiorenza, Alaina and Djuraskovic, Irina and Peiffer, J.D. and Ambrosini, Emilia and Ferrante, Simona and Roth, Elliot J. and Laczko, Jozsef and Cotton, Ronald James and Pedrocchi, Alessandra and Pons, Jose L.},
 	month = aug,
 	year = {2026},
 	keywords = {functional electrical stimulation, Gait, muscle synergies, Rehabilitation, Stroke},
@@ -209,7 +210,7 @@
 	doi = {10.48550/arXiv.2607.02796},
 	abstract = {Markerless motion capture (MMC) techniques have been widely beneficial in biomechanical analysis of human movement; however, application to complex motions of the hand lags other musculoskeletal systems. The primary goal of this study was to evaluate the performance of a biomechanical reconstruction method that implements a gradient-based optimization approach with a biomechanical model in the loop for tracking dexterous, unconstrained hand movements using MMC. Using a custom, 8-camera setup, we acquired 121 video recordings from 6 participants performing 11 different tasks that spanned 6 hand postures, 5 object manipulation tasks, and involved motion of the proximal upper limb joints. Performance of the proposed MMC pipeline was directly compared to a more commonly adopted two-stage reconstruction method that first triangulates 2D keypoints from computer vision pose estimation algorithms to 3D and then enforces biomechanical constraints by solving a constrained inverse kinematics problem. Relative performance was assessed qualitatively by visual inspection and quantitatively using a computer vision metric. Our method generated solutions for all 121 video recordings; the two-stage method did not converge for 15\% of the recordings. Across the remaining videos, our method produced more biomechanically plausible hand kinematics than the two-stage method and was more robust to occlusion effects during tasks that involved objects. The relative robustness of the end-to-end method suggests that it is more effective in utilizing the available 2D digital keypoint information. Automatic and biomechanically meaningful tracking of hand kinematics during dexterous movements has the potential to support clinical evaluation, rehabilitation monitoring, and studies of human motor control.},
 	publisher = {arXiv},
-	author = {Firouzabadi, Pouyan and Peiffer, J. D. and Shah, Kunal and Sobinov, Anton and Miller, Lee E. and Cotton, R. James and Murray, Wendy M.},
+	author = {Firouzabadi, Pouyan and Peiffer, J.D. and Shah, Kunal and Sobinov, Anton and Miller, Lee E. and Cotton, R. James and Murray, Wendy M.},
 	month = jul,
 	year = {2026},
 	note = {arXiv:2607.02796 [cs.CV]},
@@ -224,7 +225,7 @@
 	doi = {10.48550/arXiv.2608.29928},
 	abstract = {State-of-the-art monocular body recovery methods predict mesh vertices and angles on the corresponding kinematic tree, but their outputs lack biomechanically defined joint angles that downstream applications like clinical and biomechanical analyses require. We extend an existing foundation model, SAM-3D-Body, with an additional biomechanical prediction head that, from a single RGB image, regresses the joint angles and scales of a biomechanical model. Training this model presents a challenge, as there are limited datasets of paired images and biomechanical fits. To overcome this, we supervise biomechanical outputs with in-loop optimized targets from a Levenberg-Marquardt solver performing inverse kinematics fits against markers from the mesh predictions. This allows distilling the biomechanical head from the mesh head, even from unlabeled images. To make this work with GPU-optimized biomechanical models in MuJoCo, the entire model was implemented in JAX using Equinox. We trained this distilled output head on the publicly released SAM-3D-Body dataset. We then validated this model on biomechanical fits to two publicly available marker-based datasets, MoVi and BioCV, as well as movements from a clinical cohort captured with multiview markerless motion capture. The resulting model outperforms existing models for direct regression of biomechanics from images while only slightly underperforming the state-of-the-art monocular biomechanics method that performs more costly inference-time optimization of entire trajectories.},
 	publisher = {arXiv},
-	author = {Cotton, R. James and Peiffer, J. D. and Williamson, Lucinda and Leske, John and Pavlakos, Georgios},
+	author = {Cotton, R. James and Peiffer, J.D. and Williamson, Lucinda and Leske, John and Pavlakos, Georgios},
 	month = aug,
 	year = {2026},
 	note = {arXiv:2608.29928 [cs.CV]},
