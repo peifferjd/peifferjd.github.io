@@ -17,19 +17,18 @@
 	selected = {true}
 }
 
-@misc{cotton_biomechanical_2026,
+@inproceedings{cotton_biomechanical_2026,
 	title = {Biomechanical {3D} {Body}: {Self}-{Supervised} {Distillation} of {Biomechanical} {Pose} from a {3D} {Body} {Foundation} {Model}},
 	shorttitle = {Biomechanical {3D} {Body}},
 	url = {http://arxiv.org/abs/2608.29928},
 	doi = {10.48550/arXiv.2608.29928},
+	booktitle = {ECCV 2026 Workshop on Multimodal Challenges (MoCha)},
 	abstract = {State-of-the-art monocular body recovery methods predict mesh vertices and angles on the corresponding kinematic tree, but their outputs lack biomechanically defined joint angles that downstream applications like clinical and biomechanical analyses require. We extend an existing foundation model, SAM-3D-Body, with an additional biomechanical prediction head that, from a single RGB image, regresses the joint angles and scales of a biomechanical model. Training this model presents a challenge, as there are limited datasets of paired images and biomechanical fits. To overcome this, we supervise biomechanical outputs with in-loop optimized targets from a Levenberg-Marquardt solver performing inverse kinematics fits against markers from the mesh predictions. This allows distilling the biomechanical head from the mesh head, even from unlabeled images. To make this work with GPU-optimized biomechanical models in MuJoCo, the entire model was implemented in JAX using Equinox. We trained this distilled output head on the publicly released SAM-3D-Body dataset. We then validated this model on biomechanical fits to two publicly available marker-based datasets, MoVi and BioCV, as well as movements from a clinical cohort captured with multiview markerless motion capture. The resulting model outperforms existing models for direct regression of biomechanics from images while only slightly underperforming the state-of-the-art monocular biomechanics method that performs more costly inference-time optimization of entire trajectories.},
-	publisher = {arXiv},
 	author = {Cotton, R. James and Peiffer, J.D. and Williamson, Lucinda and Leske, John and Pavlakos, Georgios},
 	month = aug,
 	year = {2026},
 	note = {arXiv:2608.29928 [cs.CV]},
 	keywords = {Computer Science - Computer Vision and Pattern Recognition},
-	annote = {Comment: Accepted to the ECCV 2026 Workshop MoCha},
 	preview = {b3db_fig.png},
 	selected = {true},
 }
@@ -217,13 +216,13 @@
 	preview = {hand_fig2.png},
 }
 
-@misc{joshi_markerless_2026,
+@inproceedings{joshi_markerless_2026,
 	title = {Markerless Motion Capture for Biomechanical Whole-Body Kinematic Estimation in Infants},
 	url = {http://arxiv.org/abs/2605.17120},
 	doi = {10.48550/arXiv.2605.17120},
+	booktitle = {2026 48th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
 	abstract = {Early identification of motor impairment in infancy relies on expert visual assessment of spontaneous movement, motivating the development of automated, objective alternatives. One promising approach is using computer vision, which benefits from high quality pose estimation from video. In this study, we systematically evaluated three state-of-the-art pose estimation frameworks (MeTRAbs-ACAE, SAM 3D Body, and Sapiens) on 100 videos over 13 sessions of 8 infants recorded with a multi-view markerless motion capture system. We quantified keypoint detection accuracy using reprojection error, geometric consistency, and Procrustes-aligned 3D position error, and demonstrated proof-of-concept for fitting an inverse kinematic framework to infant data. While Sapiens achieved the lowest reprojection error and highest geometric consistency of the methods evaluated (22.8 pixels and 0.82, respectively), SAM 3D Body provided the most comprehensive 3D information for kinematic reconstruction with Procrustes-aligned position errors of 19 to 28 mm. We demonstrate in a case comparison example that biomechanical models fit to SAM 3D estimates distinguish representative movement patterns in infants related to motor development, as identified by a clinical expert. Together, these findings highlight both the promise and current limitations of 3D pose estimation for infant biomechanics and establish preliminary groundwork for scalable, video-based assessment of early motor development.},
 	language = {en},
-	publisher = {arXiv},
 	author = {Joshi, Divya and Peiffer, J.D. and Peyton, Colleen and Cotton, R. James},
 	month = may,
 	year = {2026},
