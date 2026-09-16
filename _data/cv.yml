@@ -1,8 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: J.D. Peiffer
-  headline: PhD Candidate in Biomedical Engineering
-  location: Chicago, IL
+  headline: AI Researcher in Computer Vision with Demonstrated Clinical Deployment Experience
   email: jd.peiffer@gmail.com
   phone: "+16365792201"
   website: https://jdpeiffer.com
@@ -15,23 +14,19 @@ cv:
   sections:
 
     Education:
-      - institution: Northwestern University / Shirley Ryan AbilityLab
+      - institution: Northwestern University / Center for Bionic Medicine, Shirley Ryan AbilityLab
         area: Biomedical Engineering
         degree: MS, PhD
         start_date: 2022-09
         location: Chicago, IL
         highlights:
-          - "GPA: 3.81 | Center for Bionic Medicine, Shirley Ryan AbilityLab"
-          - "NSF Graduate Research Fellowship (2022); NIH T32 Training Grant (2024)"
+          - "GPA: 3.81 | NSF Graduate Research Fellowship (2022); NIH T32 Training Grant (2024)"
       - institution: Washington University in St. Louis
         area: Biomedical Engineering
         degree: Rotation Student
         start_date: 2021-08
         end_date: 2022-07
         location: St. Louis, MO
-        highlights:
-          - "GPA: 3.58"
-          - "Rotations in cervical myelopathy motion characterization, EEG decoding, and spinal cord stimulation"
       - institution: University of Missouri
         area: Biomedical Engineering
         degree: BS
@@ -49,29 +44,30 @@ cv:
         end_date: present
         location: Chicago, IL
         highlights:
-          - Led end-to-end clinical AI research spanning computer vision, multimodal sensing, and biomechanical modeling, taking models from research through validated clinical deployment; produced 10 peer-reviewed publications (>145 citations in <4 years).
-          - Developed and released the Portable Biomechanics Laboratory — the first clinically validated single-camera smartphone gait analysis system, achieving joint angle errors <3°, with derived biomarkers showing greater responsiveness to surgical intervention than standard outcomes; first-author paper in npj Digital Medicine (Nature). Deployed at external sites including Shriners Children's and the Lake Lucerne Institute, both of which published independent studies using it.
+          - Led first-author research in computer vision, sensor fusion, and biomechanical modeling for clinical AI, taking models from concept through validated clinical deployment; 15+ publications, >170 citations in <4 years.
+          - Developed and released the Portable Biomechanics Laboratory — the first clinically validated single-camera smartphone gait analysis system, achieving <3° joint-angle error and ICC > 0.9 for derived gait biomarkers; first-author paper in npj Digital Medicine (Nature).
+          - Deployed PBL to 3 external clinical sites (Shriners Children's, Lake Lucerne Institute), each of which published independent validation studies; demonstrated derived gait metrics detect surgical response in cervical myelopathy more sensitively than standard patient-reported outcomes.
           - Designed a neural-network fusion of uncalibrated IMU and monocular smartphone video, cutting knee angle error 26% while maintaining accuracy through visual occlusions.
-          - Built multi-camera calibration and SAM-based pseudo-labeling pipelines, generating pseudo-ground-truth annotations to train and benchmark monocular scene reconstruction.
+          - Co-authored B3D, a feed-forward biomechanical prediction head on a frozen SAM-3D-Body foundation model, distilled label-free via differentiable MuJoCo physics; accepted to ECCV 2026 workshop.
+          - Built multi-camera calibration and SAM-based pseudo-labeling pipelines, generating pseudo-ground-truth annotations to train and benchmark monocular scene reconstruction models; curated a 10,000-video clinical movement dataset for scene understanding model development.
           - Trained a contrastive learning + causal masking transformer on unannotated clinical gait data; demonstrated learned embeddings classify neurological diagnosis and track patient response to inpatient therapy.
-          - Coordinated study design and protocol development across >300 participants at 3 external sites with neurosurgeons, physiotherapists, and engineers; mentored master's students and provided technical direction to engineers and post-doctoral researchers.
-          - Presented research through invited podium presentations to the scientific community and to life-sciences partners including Eli Lilly.
-      - company: Meta Reality Labs — Glove Sensing and Tracking Team
+      - company: Glove Sensing and Tracking Team, Meta Reality Labs
         position: Research Scientist Intern
         start_date: 2025-06
         end_date: 2026-02
         location: Redmond, WA
         highlights:
-          - Implemented a real-time C++ hand pose estimation and IK solver pipeline, achieving best-in-class accuracy and occlusion robustness for full hand pose estimation during dexterous manipulation.
-          - Trained a CNN+Transformer model on sensor data for data-driven accuracy evlauation; deployed to cloud servers for evaluation. 
-          - Coordinated data collection and benchmarking dataset design for sensing glove, resulting in a first-author IROS paper on high-performance dexterous manipulation capture.
-      - company: Neuromuscular Control & Biomechanics Laboratory
+          - Implemented a real-time hand pose estimation and inverse-kinematics pipeline achieving <5 mm fingertip tracking error at 60 Hz with occlusion robustness across a 22-DoF hand model.
+          - Trained a CNN+Transformer model on fiber-optic sensor data for direct hand pose regression, benchmarking learned pose estimation against an inverse-kinematics baseline.
+          - Collected a dexterous-manipulation benchmarking dataset with motion-capture ground truth and authored production evaluation pipeline; first-author paper accepted to IROS 2026.
+      - company: Neuromuscular Control & Biomechanics Laboratory, University of Alberta
         position: Fulbright-Mitacs Globalink Intern
         start_date: 2020-05
         end_date: 2020-08
+        location: Alberta, CA
         highlights:
           - Computationally modeled seated human trunk biomechanics under Functional Electrical Stimulation (FES) and designed LQR and fuzzy inference (FIS) feedback controllers; validated closed-loop stability in simulation.
-      - company: MU Neural Engineering Laboratory
+      - company: Neural Engineering Laboratory, University of Missouri
         position: Undergraduate Researcher
         start_date: 2020-08
         end_date: 2021-05
@@ -85,7 +81,7 @@ cv:
         location: Columbia, MO
         highlights:
           - Built a semi-automated image segmentation, registration, and quantification pipeline enabling large-cohort comparison of 129Xe MRI vs. 99mTc SPECT; first-author publication in Academic Radiology (2024).
-          - Received Audience Choice Award for oral presentation at International Workshop on Pulmonary Functional Imaging (2019).
+          - Won Audience Choice Award for oral presentation at International Workshop on Pulmonary Functional Imaging (2019).
 
     Teaching:
       - company: Northwestern University
@@ -105,9 +101,33 @@ cv:
       - company: Vail Resorts
         position: Ski Instructor
         start_date: 2018-12
-        end_date: present 
+        end_date: present
 
     Publications:
+      - title: "Biomechanics-aware Multi-view Markerless Motion Capture of Dexterous Hand Movements"
+        authors:
+          - Pouyan Firouzabadi
+          - '*J.D. Peiffer*'
+          - Kunal Shah
+          - Anton Sobinov
+          - Lee E. Miller
+          - R. James Cotton
+          - Wendy M. Murray
+        doi: 10.48550/arXiv.2607.02796
+        url: http://arxiv.org/abs/2607.02796
+        journal: arXiv
+        date: 2026-07
+      - title: "Biomechanical 3D Body: Self-Supervised Distillation of Biomechanical Pose from a 3D Body Foundation Model"
+        authors:
+          - R. James Cotton
+          - '*J.D. Peiffer*'
+          - Lucinda A. Williamson
+          - John Leske
+          - Georgios Pavlakos
+        doi: 10.48550/arXiv.2608.29928
+        url: http://arxiv.org/abs/2608.29928
+        journal: ECCV 2026 Workshop MoCha
+        date: 2026-08
       - title: "Fiber Optic Sensing Glove for High Performance Dexterous Manipulation Capture"
         authors:
           - '*J.D. Peiffer*'
@@ -115,7 +135,10 @@ cv:
           - Li Guan
           - Ziyi Kou
           - Ergys Ristani
+        doi: 10.48550/arXiv.2608.24572
+        url: http://arxiv.org/abs/2608.24572
         journal: IROS (Accepted)
+        date: 2026-08
       - title: "Portable biomechanics laboratory enables clinically accessible movement analysis from a handheld smartphone"
         authors:
           - '*J.D. Peiffer*'
@@ -171,21 +194,25 @@ cv:
         url: https://ieeexplore.ieee.org/abstract/document/11151697
         journal: "IEEE Transactions on Medical Robotics and Bionics | 2nd Place Best Student Paper, ICORR 2025"
         date: 2026-02
-      - title: "Efficacy and feasibility of synergy-based multichannel functional electrical stimulation for chronic stroke gait rehabilitation: a pilot study"
+      - title: "Synergy-based functional electrical stimulation for gait rehabilitation in chronic stroke: a pilot study"
         authors:
-          - Jackson T. Levine
-          - Xin S. Yu
-          - Rebecca Munoz
+          - Jackson Taylor Levine
+          - Xin Yu
+          - Rebecca Muñoz
           - Alaina Fiorenza
-          - Tyler Smith
           - Irina Djuraskovic
           - '*J.D. Peiffer*'
           - Emilia Ambrosini
           - Simona Ferrante
-          - Rebecca Webster
-        url: https://www.medrxiv.org/content/10.1101/2025.05.21.25328035v2
-        journal: medRxiv, In Review
-        date: 2025-05
+          - Elliot J. Roth
+          - Jozsef Laczko
+          - R. James Cotton
+          - Alessandra Pedrocchi
+          - Jose L. Pons
+        doi: 10.3389/fresc.2026.1847719
+        url: https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2026.1847719/full
+        journal: Frontiers in Rehabilitation Sciences
+        date: 2026-08
       - title: Fusing Uncalibrated IMUs and Handheld Smartphone Video to Reconstruct Knee Kinematics
         authors:
           - '*J.D. Peiffer*'
@@ -268,6 +295,7 @@ cv:
         date: 2023-08
 
     Selected Talks:
+      - bullet: "**Harnessing movement as a biomarker through deployable motion capture**, Invited talk to Eli Lilly & Human Longevity Lab (2026)"
       - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
       - bullet: "**Leveraging AI for Real-World Biomechanical Reconstruction from a Single Moving Camera**, European Society of Biomechanics, Zurich, Switzerland (2025)"
       - bullet: "**Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation**, International Consortium for Rehabilitation Robotics, Chicago, IL (2025)"
@@ -317,7 +345,7 @@ cv:
       - company: National Biomechanics Day
         position: Speaker
         start_date: 2023-04
-        end_date: 2025-04 
+        end_date: 2025-04
         summary: Developed interactive sessions for high school students on biomechanics, prosthetics, computer vision, and AI for medical image analysis.
       - company: "BioRob, IROS, iScience, CMBBE — Imaging & Visualization"
         position: Peer Reviewer
