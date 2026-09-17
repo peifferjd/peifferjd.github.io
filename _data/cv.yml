@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: J.D. Peiffer
-  headline: AI Researcher in Computer Vision with Demonstrated Clinical Deployment Experience
   email: jd.peiffer@gmail.com
   phone: "+16365792201"
   website: https://jdpeiffer.com
@@ -14,13 +13,13 @@ cv:
   sections:
 
     Education:
-      - institution: Northwestern University / Center for Bionic Medicine, Shirley Ryan AbilityLab
+      - institution: Northwestern University, Shirley Ryan AbilityLab
         area: Biomedical Engineering
         degree: MS, PhD
         start_date: 2022-09
         location: Chicago, IL
         highlights:
-          - "GPA: 3.81 | NSF Graduate Research Fellowship (2022); NIH T32 Training Grant (2024)"
+          - "GPA: 3.81; NSF Graduate Research Fellowship (2022); NIH T32 Training Grant (2024)"
       - institution: Washington University in St. Louis
         area: Biomedical Engineering
         degree: Rotation Student
@@ -34,7 +33,7 @@ cv:
         end_date: 2021-05
         location: Columbia, MO
         highlights:
-          - "GPA: 3.92 | Emphasis: Bioinformatics | Minor: Mathematics"
+          - "GPA: 3.92; Emphasis: Bioinformatics; Minor: Mathematics"
           - "Honors Scholar; Dean's List (all semesters)"
 
     Experience:
@@ -83,25 +82,52 @@ cv:
           - Built a semi-automated image segmentation, registration, and quantification pipeline enabling large-cohort comparison of 129Xe MRI vs. 99mTc SPECT; first-author publication in Academic Radiology (2024).
           - Won Audience Choice Award for oral presentation at International Workshop on Pulmonary Functional Imaging (2019).
 
-    Teaching:
-      - company: Northwestern University
-        position: "Teaching Assistant — Biomedical Applications of Machine Learning"
-        start_date: 2025-03
-        end_date: 2025-06
-        location: Chicago, IL
-        highlights:
-          - Instructed graduate students in Python-based ML including data preprocessing, regression, tree-based methods, DNNs, and CNNs.
-      - company: University of Missouri
-        position: "Teaching Assistant — Advanced Hydroinformatics"
-        start_date: 2020-01
-        end_date: 2021-05
-        location: Columbia, MO
-        highlights:
-          - Created curriculum introducing graduate students to scientific data manipulation and parallel computation job submission on HPC clusters.
-      - company: Vail Resorts
-        position: Ski Instructor
-        start_date: 2018-12
-        end_date: present
+    Selected Talks:
+      - bullet: "**Harnessing movement as a biomarker through deployable motion capture**, Invited talk to Eli Lilly & Human Longevity Lab (2026)"
+      - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
+      - bullet: "**Leveraging AI for Real-World Biomechanical Reconstruction from a Single Moving Camera**, European Society of Biomechanics, Zurich, Switzerland (2025)"
+      - bullet: "**Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation**, International Consortium for Rehabilitation Robotics, Chicago, IL (2025)"
+      - bullet: "**Accurate Lower Body Kinematics Using a Handheld Smartphone**, American Society of Biomechanics Annual Meeting, Madison, WI (2024)"
+
+    Selected Honors:
+      - bullet: "**NSF Graduate Research Fellowship**, National Science Foundation (2022)"
+      - bullet: "**Fulbright-Mitacs Globalink Internship** (2020)"
+      - bullet: NIH T32 Training Grant (2024)
+      - bullet: 2nd Place Best Student Paper, ICORR (2025)
+      - bullet: Barry M. Goldwater Scholarship Campus Nomination (2019)
+      - bullet: Audience Choice Award, International Workshop on Pulmonary Functional Imaging (2019)
+      - bullet: 2 x Boston Marathon Qualifier (2024, 2025)
+      - bullet: Cherng Summer Scholar, University of Missouri (2019)
+
+    Skills:
+      - name: Languages
+        keywords:
+          - Python
+          - C++
+          - R
+      - name: ML Frameworks
+        keywords:
+          - "JAX (Jaxlie)"
+          - "PyTorch (Pytorch3D)"
+          - TensorFlow
+          - "MuJoCo/MJX"
+          - OpenCV
+      - name: Infrastructure
+        keywords:
+          - Docker
+          - Kubernetes
+          - Git
+          - SQL
+          - Datajoint
+          - "W&B"
+      - name: Research Areas
+        keywords:
+          - Computer Vision
+          - Sensor Fusion
+          - Biomechanics
+          - Wearables
+          - Self-Supervised Learning
+          - Generative Models
 
     Publications:
       - title: "Biomechanics-aware Multi-view Markerless Motion Capture of Dexterous Hand Movements"
@@ -294,52 +320,25 @@ cv:
         journal: Journal of Neural Engineering
         date: 2023-08
 
-    Selected Talks:
-      - bullet: "**Harnessing movement as a biomarker through deployable motion capture**, Invited talk to Eli Lilly & Human Longevity Lab (2026)"
-      - bullet: "**Deployable motion capture for in-clinic and in-the-wild biomechanical measurement**, Computerized Motion Analysis Laboratory Visiting Professor Program, Chicago, IL (2026)"
-      - bullet: "**Leveraging AI for Real-World Biomechanical Reconstruction from a Single Moving Camera**, European Society of Biomechanics, Zurich, Switzerland (2025)"
-      - bullet: "**Differentiable Biomechanics for Markerless Motion Capture in Upper Limb Stroke Rehabilitation**, International Consortium for Rehabilitation Robotics, Chicago, IL (2025)"
-      - bullet: "**Accurate Lower Body Kinematics Using a Handheld Smartphone**, American Society of Biomechanics Annual Meeting, Madison, WI (2024)"
-
-    Selected Honors:
-      - bullet: "**NSF Graduate Research Fellowship**, National Science Foundation (2022)"
-      - bullet: "**Fulbright-Mitacs Globalink Internship** (2020)"
-      - bullet: NIH T32 Training Grant (2024)
-      - bullet: 2nd Place Best Student Paper, ICORR (2025)
-      - bullet: Barry M. Goldwater Scholarship Campus Nomination (2019)
-      - bullet: Audience Choice Award, International Workshop on Pulmonary Functional Imaging (2019)
-      - bullet: 2 x Boston Marathon Qualifier (2024, 2025)
-      - bullet: Cherng Summer Scholar, University of Missouri (2019)
-
-    Skills:
-      - name: Languages
-        keywords:
-          - Python
-          - C++
-          - R
-      - name: ML Frameworks
-        keywords:
-          - "JAX (Jaxlie)"
-          - "PyTorch (Pytorch3D)"
-          - TensorFlow
-          - "MuJoCo/MJX"
-          - OpenCV
-      - name: Infrastructure
-        keywords:
-          - Docker
-          - Kubernetes
-          - Git
-          - SQL
-          - Datajoint
-          - "W&B"
-      - name: Research Areas
-        keywords:
-          - Computer Vision
-          - Sensor Fusion
-          - Biomechanics
-          - Wearables
-          - Self-Supervised Learning
-          - Generative Models
+    Teaching:
+      - company: Northwestern University
+        position: "Teaching Assistant — Biomedical Applications of Machine Learning"
+        start_date: 2025-03
+        end_date: 2025-06
+        location: Chicago, IL
+        highlights:
+          - Instructed graduate students in Python-based ML including data preprocessing, regression, tree-based methods, DNNs, and CNNs.
+      - company: University of Missouri
+        position: "Teaching Assistant — Advanced Hydroinformatics"
+        start_date: 2020-01
+        end_date: 2021-05
+        location: Columbia, MO
+        highlights:
+          - Created curriculum introducing graduate students to scientific data manipulation and parallel computation job submission on HPC clusters.
+      - company: Vail Resorts
+        position: Ski Instructor
+        start_date: 2018-12
+        end_date: present
 
     Service:
       - company: National Biomechanics Day
